@@ -22,6 +22,7 @@
 		C8169A611BE6BE1C00C1C9ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8169A601BE6BE1C00C1C9ED /* Constants.swift */; };
 		C8169A631BE6EAE300C1C9ED /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8169A621BE6EAE200C1C9ED /* ProgressIndicator.swift */; };
 		C8169A651BE6F15100C1C9ED /* DropThroughImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8169A641BE6F15100C1C9ED /* DropThroughImageView.swift */; };
+		C82044841E7CC9440003643A /* TrainerSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82044831E7CC9440003643A /* TrainerSplitView.swift */; };
 		C84454601E403FFB001BDF63 /* boot.sh in Resources */ = {isa = PBXBuildFile; fileRef = C844545F1E403FFB001BDF63 /* boot.sh */; };
 		C84454621E406900001BDF63 /* CurrentDockerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84454611E406900001BDF63 /* CurrentDockerImage.swift */; };
 		C84454641E406D4C001BDF63 /* stopDocker.sh in Resources */ = {isa = PBXBuildFile; fileRef = C84454631E406D4C001BDF63 /* stopDocker.sh */; };
@@ -57,6 +58,7 @@
 		C8169A601BE6BE1C00C1C9ED /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		C8169A621BE6EAE200C1C9ED /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		C8169A641BE6F15100C1C9ED /* DropThroughImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropThroughImageView.swift; sourceTree = "<group>"; };
+		C82044831E7CC9440003643A /* TrainerSplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerSplitView.swift; sourceTree = "<group>"; };
 		C844545F1E403FFB001BDF63 /* boot.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = boot.sh; sourceTree = "<group>"; };
 		C84454611E406900001BDF63 /* CurrentDockerImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentDockerImage.swift; sourceTree = "<group>"; };
 		C84454631E406D4C001BDF63 /* stopDocker.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = stopDocker.sh; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				C84454651E4080AC001BDF63 /* getDockerId.sh */,
 				C8169A491BE67F1E00C1C9ED /* getApkInfo.sh */,
 				C844545F1E403FFB001BDF63 /* boot.sh */,
+				C82044831E7CC9440003643A /* TrainerSplitView.swift */,
 				C80F7C1E1BE474CC0010E398 /* handleZip.sh */,
 				C8169A5A1BE6AC0600C1C9ED /* installZip.sh */,
 				C8169A541BE693A200C1C9ED /* launchActivity.sh */,
@@ -251,6 +254,7 @@
 				C8169A5F1BE6B68600C1C9ED /* TerminalOutputTextView.swift in Sources */,
 				C86DCE6E1BE4561B00B47157 /* DropReceiverView.swift in Sources */,
 				C80F7C1D1BE45E690010E398 /* ShellTasker.swift in Sources */,
+				C82044841E7CC9440003643A /* TrainerSplitView.swift in Sources */,
 				C86DCE5F1BE455E200B47157 /* AppDelegate.swift in Sources */,
 				C84454621E406900001BDF63 /* CurrentDockerImage.swift in Sources */,
 			);
