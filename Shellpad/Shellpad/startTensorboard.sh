@@ -7,7 +7,7 @@
 #  Copyright © 2017 Morten Just Petersen. All rights reserved.
 
 
-echo "Starting Tensorboard"
+echo "Starting Tensorboard on image $1"
 
 docker exec -itd $1 \
     /bin/bash /scripts/starttensorboard.sh

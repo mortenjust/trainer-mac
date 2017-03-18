@@ -6,6 +6,9 @@
 #  Created by Morten Just Petersen on 1/30/17.
 #  Copyright © 2017 Morten Just Petersen. All rights reserved.
 
+echo "Stopping ghost images"
+docker stop $(docker ps -q --filter ancestor=mortenjust/trainer)
+
 
 echo "Starting Ubuntu..."
 

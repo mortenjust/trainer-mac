@@ -19,5 +19,5 @@ mkdir -p $TF
 mkdir -p $TF/images
 mkdir -p $TF/images/originals
 mkdir -p $TF/images/resized
-mkdir -p $TF/images/videos
+mkdir -p $TF/videos
 mkdir -p $TF/model

@@ -27,13 +27,14 @@ class ViewController: NSViewController, DropDelegate {
     
     var enableButtons = Array<NSButton>()
     
-    @IBAction func openFolderClicked(_ sender: Any) {
-        let folder = "\(Constants.TF_FILES)/images/originals"
+    @IBAction func openImagesFolderClicked(_ sender: Any) {
+        let folder = "\(Constants.TF_FILES)/images/"
         print("Constants.TF_Files: \(Constants.TF_FILES)")
         print("NSHomeDirectory dir \(NSHomeDirectory())")
         print("openfolderclicked. Opening this folder: \(folder) ")
         NSWorkspace.shared().openFile(folder)
     }
+    
     
     func startIndicator(status:String) {
         taskStarted = NSDate().timeIntervalSince1970
@@ -170,7 +171,7 @@ class ViewController: NSViewController, DropDelegate {
                     print("done launching. Output below ----\n--- \(output as String)")
                     self.stopIndicator(taskName:"Booting docker")
                     self.getDockerId()
-                    self.startTensorboard()
+                    
                 }
                 
             } else if r == "no" {
@@ -189,10 +190,8 @@ class ViewController: NSViewController, DropDelegate {
 
     
     func askForDocker(){
-
         let vc = self.storyboard!.instantiateController(withIdentifier: "docker") as! NSViewController
         self.presentViewControllerAsSheet(vc)
-
     }
     
     
@@ -204,6 +203,7 @@ class ViewController: NSViewController, DropDelegate {
             imageId = imageId.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
             CurrentDockerImage.sharedInstance.imageId = imageId
             self.stopIndicator(taskName:"Getting docker id")
+            self.startTensorboard() // tensorboard needs the ID, so that's why we're calling it here
         }
     }
     
