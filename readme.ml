@@ -1,6 +1,6 @@
 # Trainer
 This app will create an iPhone app that uses Tensorflow image recognition, trained on your own images. You can make a trail mix recognizer, a skin cancer detector, a cat in sofa detector, a cake recognizer, or whatever you can come up with. 
-
+  
 # Prepare
 * Install Xcode 8 or higher
 * Install Docker
