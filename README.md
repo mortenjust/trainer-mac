@@ -24,6 +24,8 @@ This app will create an iPhone app that uses Tensorflow image recognition, train
 # Make your app
 * Click the Xcode icon. Creating your app will take about 45 minutes. 
 * Go to ~/projects/tf_files/tensorswift_ios/tensorswift
+* Open the xcode project and open `Config.swift`
+* Add your labels and which web page the app should open when it recognizes them
 
 # Add images to your model
 * Add the images to `images/originals` and `videos`
