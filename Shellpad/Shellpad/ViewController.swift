@@ -27,15 +27,15 @@ class ViewController: NSViewController, DropDelegate {
     
     var enableButtons = Array<NSButton>()
     
-    @IBAction func openImagesFolderClicked(_ sender: Any) {
-        let folder = "\(Constants.TF_FILES)/images/"
-        print("Constants.TF_Files: \(Constants.TF_FILES)")
-        print("NSHomeDirectory dir \(NSHomeDirectory())")
-        print("openfolderclicked. Opening this folder: \(folder) ")
-        NSWorkspace.shared().openFile(folder)
+    
+    @IBAction func browseClicked(_ sender: Any) {
+                let folder = "\(Constants.TF_FILES)"
+                print("Constants.TF_Files: \(Constants.TF_FILES)")
+                print("NSHomeDirectory dir \(NSHomeDirectory())")
+                print("openfolderclicked. Opening this folder: \(folder) ")
+                NSWorkspace.shared().openFile(folder)
     }
-    
-    
+
     func startIndicator(status:String) {
         taskStarted = NSDate().timeIntervalSince1970
         indicator.startAnimation(nil)

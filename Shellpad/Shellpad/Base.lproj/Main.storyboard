@@ -827,7 +827,7 @@
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
                                                                 <connections>
-                                                                    <action selector="openFolderClicked:" target="XfG-lQ-9wD" id="Y0t-Vn-FkV"/>
+                                                                    <action selector="browseClicked:" target="XfG-lQ-9wD" id="DOw-hg-RX6"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
