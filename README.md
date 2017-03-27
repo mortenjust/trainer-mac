@@ -35,3 +35,13 @@ This app will create an iPhone app that uses Tensorflow image recognition, train
 * Click `Start Training`
 * In Xcode's left hand file panel, delete the files in the folder 'model'
 * Click `Reveal model files` and drag the files into the `model` folder in Xcode
+
+# Next steps
+Feel free to grab one of these, or get in touch about any of them:
+
+[ ] Optimize the model for inference
+[ ] quantisize_graph for smaller model file size
+[ ] Show Tensorboard vital stats directly in the app
+[ ] Add UI for hyperparameters
+[ ] Fix `reset` - it doesn't seem to do anything. Should remove bottlenecks and resize logs
+[ ]
