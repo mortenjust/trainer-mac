@@ -1,6 +1,6 @@
 <img src="https://github.com/mortenjust/trainer-mac/blob/master/UX/header2.png?raw=true">
 
-# Make an iPhone app that recognizes images in three clicks
+# In three clicks, make an iPhone app that runs image recognition on every video frame coming live from the camera
 This app will create an iPhone app that uses Tensorflow image recognition, trained on your own images. You can make a trail mix calorie counter, a skin cancer detector, a cat in sofa detector, a cake recognizer, or whatever you can come up with. 
 
 <img src="https://github.com/mortenjust/trainer-mac/blob/master/UX/trainerdemo.png?raw=true">
